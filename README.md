@@ -77,9 +77,9 @@ so that the bank locks in the target margin *m* up-front.
 The following products are under active development :
 
 
-- **Variance Swap pricer — three complementary approaches.** The first leg, **static replication via the Carr–Madan formula** (strip of European options replicating realised variance), is already drafted (variance_swap_pricer_part1.py). Still to come:
+- **Variance Swap pricer — three complementary approaches.** The first leg, **static replication via the Carr–Madan formula** (strip of European options replicating realised variance), is already drafted ('variance_swap_pricer_part1.py'). Still to come:
   - **Monte Carlo under Heston stochastic volatility**, handling the Feller condition and the Heston Trap via the Lord–Kahl rotation count fix.
-  - **VIX-style model-free calculation** (CBOE methodology), to cross-validate the two model-based prices.
+  - **VIX-style model-free calculation** 
 
 
 - **Autocallable Note.** Path-dependent note with periodic observation dates, coupon memory, and early redemption trigger. Pricing via Monte Carlo under Black–Scholes and Heston dynamics.
