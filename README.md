@@ -78,7 +78,7 @@ The following products are under active development :
 
 
 - **Variance Swap pricer — three complementary approaches.** The first leg, **static replication via the Carr–Madan formula** (strip of European options replicating realised variance), is already drafted ('variance_swap_pricer_part1.py'). Still to come:
-  - **Monte Carlo under Heston stochastic volatility**, handling the Feller condition and the Heston Trap via the Lord–Kahl rotation count fix.
+  - **Monte Carlo under Heston stochastic volatility**, handling the Feller condition
   - **VIX-style model-free calculation** 
 
 
