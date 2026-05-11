@@ -52,7 +52,7 @@ calls = pd.DataFrame(calls_data, columns=["K_call", "ask_call"])
 # Product / bank parameters 
 N          = 100_000   # client investment
 g          = 0.90      # principal guarantee 90%
-margin_pct = 0.04 # bank margin: 3% of N
+margin_pct = 0.04 # bank margin: 4% of N
 r          = 0.036  # risk-free rate 
 T_days     = 402    # days to maturity
 # =============================
@@ -130,7 +130,7 @@ else:
     print("\nChosen combination with smallest spread:")
     print(best)
 
-    # ===== Number of options=====
+    # ===== Number of options to buy=====
     n = N / S0
     print(f"\nNumber of underlying shares (N/S0) = {n:.2f}")
     print("→ This is the quantity of each option to buy.\n")
